@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <code-assistance-data xmlns="http://www.netbeans.org/ns/make-project-private/1">
+        <code-model-enabled>true</code-model-enabled>
+    </code-assistance-data>
+    <data xmlns="http://www.netbeans.org/ns/make-project-private/1">
+        <activeConfTypeElem>0</activeConfTypeElem>
+        <activeConfIndexElem>0</activeConfIndexElem>
+    </data>
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/omikey/Desktop/sample/source/internet.c</file>
+            <file>file:/home/omikey/Desktop/sample/source/operations.c</file>
+            <file>file:/home/omikey/Desktop/sample/source/util.h</file>
+            <file>file:/home/omikey/Desktop/sample/source/main.c</file>
+            <file>file:/home/omikey/Desktop/sample/source/structures.h</file>
+            <file>file:/home/omikey/Desktop/sample/source/wsmask.c</file>
+            <file>file:/home/omikey/Desktop/libsftd/include/sftd.h</file>
+            <file>file:/home/omikey/Desktop/sample/source/util.c</file>
+            <file>file:/home/omikey/Desktop/sample/include/3ds/types.h</file>
+            <file>file:/home/omikey/Desktop/libsf2d/include/sf2d.h</file>
+            <file>file:/home/omikey/Desktop/sample/Makefile</file>
+            <file>file:/home/omikey/Desktop/libwebsockets/lib/base64-decode.c</file>
+            <file>file:/home/omikey/Desktop/libwebsockets/lib/private-libwebsockets.h</file>
+            <file>file:/home/omikey/Desktop/sample/source/websocket.c</file>
+        </group>
+    </open-files>
+</project-private>

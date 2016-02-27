@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="Desktop"
+                   displayName="Desktop"
+                   projectFiles="true"
+                   root="..">
+      <logicalFolder name="libsf2d" displayName="libsf2d" projectFiles="true">
+        <logicalFolder name="include" displayName="include" projectFiles="true">
+          <itemPath>../libsf2d/include/sf2d.h</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="libsftd" displayName="libsftd" projectFiles="true">
+        <logicalFolder name="include" displayName="include" projectFiles="true">
+          <itemPath>../libsftd/include/sftd.h</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="libwebsockets"
+                     displayName="libwebsockets"
+                     projectFiles="true">
+        <logicalFolder name="lib" displayName="lib" projectFiles="true">
+          <logicalFolder name="3ds" displayName="3ds" projectFiles="true">
+            <itemPath>../libwebsockets/lib/3ds/types.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="arpa" displayName="arpa" projectFiles="true">
+            <itemPath>../libwebsockets/lib/arpa/inet.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="asm" displayName="asm" projectFiles="true">
+            <itemPath>../libwebsockets/lib/asm/errno.h</itemPath>
+            <itemPath>../libwebsockets/lib/asm/socket.h</itemPath>
+            <itemPath>../libwebsockets/lib/asm/sockios.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="asm-generic" displayName="asm-generic" projectFiles="true">
+            <itemPath>../libwebsockets/lib/asm-generic/errno-base.h</itemPath>
+            <itemPath>../libwebsockets/lib/asm-generic/errno.h</itemPath>
+            <itemPath>../libwebsockets/lib/asm-generic/socket.h</itemPath>
+            <itemPath>../libwebsockets/lib/asm-generic/sockios.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="bits" displayName="bits" projectFiles="true">
+            <itemPath>../libwebsockets/lib/bits/byteswap-16.h</itemPath>
+            <itemPath>../libwebsockets/lib/bits/byteswap.h</itemPath>
+            <itemPath>../libwebsockets/lib/bits/confname.h</itemPath>
+            <itemPath>../libwebsockets/lib/bits/endian.h</itemPath>
+            <itemPath>../libwebsockets/lib/bits/environments.h</itemPath>
+            <itemPath>../libwebsockets/lib/bits/errno.h</itemPath>
+            <itemPath>../libwebsockets/lib/bits/fcntl-linux.h</itemPath>
+            <itemPath>../libwebsockets/lib/bits/fcntl.h</itemPath>
+            <itemPath>../libwebsockets/lib/bits/local_lim.h</itemPath>
+            <itemPath>../libwebsockets/lib/bits/mman-linux.h</itemPath>
+            <itemPath>../libwebsockets/lib/bits/mman.h</itemPath>
+            <itemPath>../libwebsockets/lib/bits/netdb.h</itemPath>
+            <itemPath>../libwebsockets/lib/bits/posix1_lim.h</itemPath>
+            <itemPath>../libwebsockets/lib/bits/posix2_lim.h</itemPath>
+            <itemPath>../libwebsockets/lib/bits/posix_opt.h</itemPath>
+            <itemPath>../libwebsockets/lib/bits/pthreadtypes.h</itemPath>
+            <itemPath>../libwebsockets/lib/bits/select.h</itemPath>
+            <itemPath>../libwebsockets/lib/bits/sigaction.h</itemPath>
+            <itemPath>../libwebsockets/lib/bits/sigcontext.h</itemPath>
+            <itemPath>../libwebsockets/lib/bits/siginfo.h</itemPath>
+            <itemPath>../libwebsockets/lib/bits/signum.h</itemPath>
+            <itemPath>../libwebsockets/lib/bits/sigset.h</itemPath>
+            <itemPath>../libwebsockets/lib/bits/sigstack.h</itemPath>
+            <itemPath>../libwebsockets/lib/bits/sigthread.h</itemPath>
+            <itemPath>../libwebsockets/lib/bits/sockaddr.h</itemPath>
+            <itemPath>../libwebsockets/lib/bits/socket.h</itemPath>
+            <itemPath>../libwebsockets/lib/bits/socket_type.h</itemPath>
+            <itemPath>../libwebsockets/lib/bits/stat.h</itemPath>
+            <itemPath>../libwebsockets/lib/bits/stdio_lim.h</itemPath>
+            <itemPath>../libwebsockets/lib/bits/stdlib-float.h</itemPath>
+            <itemPath>../libwebsockets/lib/bits/sys_errlist.h</itemPath>
+            <itemPath>../libwebsockets/lib/bits/syslog-path.h</itemPath>
+            <itemPath>../libwebsockets/lib/bits/time.h</itemPath>
+            <itemPath>../libwebsockets/lib/bits/types.h</itemPath>
+            <itemPath>../libwebsockets/lib/bits/typesizes.h</itemPath>
+            <itemPath>../libwebsockets/lib/bits/uio.h</itemPath>
+            <itemPath>../libwebsockets/lib/bits/waitflags.h</itemPath>
+            <itemPath>../libwebsockets/lib/bits/waitstatus.h</itemPath>
+            <itemPath>../libwebsockets/lib/bits/wchar.h</itemPath>
+            <itemPath>../libwebsockets/lib/bits/wordsize.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="gnu" displayName="gnu" projectFiles="true">
+            <itemPath>../libwebsockets/lib/gnu/stubs-32.h</itemPath>
+            <itemPath>../libwebsockets/lib/gnu/stubs.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="linux" displayName="linux" projectFiles="true">
+            <itemPath>../libwebsockets/lib/linux/errno.h</itemPath>
+            <itemPath>../libwebsockets/lib/linux/limits.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="netinet" displayName="netinet" projectFiles="true">
+            <itemPath>../libwebsockets/lib/netinet/in.h</itemPath>
+            <itemPath>../libwebsockets/lib/netinet/tcp.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="rpc" displayName="rpc" projectFiles="true">
+            <itemPath>../libwebsockets/lib/rpc/netdb.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="sys" displayName="sys" projectFiles="true">
+            <itemPath>../libwebsockets/lib/sys/cdefs.h</itemPath>
+            <itemPath>../libwebsockets/lib/sys/mman.h</itemPath>
+            <itemPath>../libwebsockets/lib/sys/select.h</itemPath>
+            <itemPath>../libwebsockets/lib/sys/socket.h</itemPath>
+            <itemPath>../libwebsockets/lib/sys/stat.h</itemPath>
+            <itemPath>../libwebsockets/lib/sys/syslog.h</itemPath>
+            <itemPath>../libwebsockets/lib/sys/sysmacros.h</itemPath>
+            <itemPath>../libwebsockets/lib/sys/time.h</itemPath>
+            <itemPath>../libwebsockets/lib/sys/types.h</itemPath>
+            <itemPath>../libwebsockets/lib/sys/ucontext.h</itemPath>
+            <itemPath>../libwebsockets/lib/sys/uio.h</itemPath>
+            <itemPath>../libwebsockets/lib/sys/un.h</itemPath>
+          </logicalFolder>
+          <itemPath>../libwebsockets/lib/_G_config.h</itemPath>
+          <itemPath>../libwebsockets/lib/alloc.c</itemPath>
+          <itemPath>../libwebsockets/lib/alloca.h</itemPath>
+          <itemPath>../libwebsockets/lib/assert.h</itemPath>
+          <itemPath>../libwebsockets/lib/base64-decode.c</itemPath>
+          <itemPath>../libwebsockets/lib/client-handshake.c</itemPath>
+          <itemPath>../libwebsockets/lib/client-parser.c</itemPath>
+          <itemPath>../libwebsockets/lib/client.c</itemPath>
+          <itemPath>../libwebsockets/lib/context.c</itemPath>
+          <itemPath>../libwebsockets/lib/ctype.h</itemPath>
+          <itemPath>../libwebsockets/lib/endian.h</itemPath>
+          <itemPath>../libwebsockets/lib/errno.h</itemPath>
+          <itemPath>../libwebsockets/lib/extension-deflate-frame.c</itemPath>
+          <itemPath>../libwebsockets/lib/extension-deflate-frame.h</itemPath>
+          <itemPath>../libwebsockets/lib/extension-deflate-stream.c</itemPath>
+          <itemPath>../libwebsockets/lib/extension-deflate-stream.h</itemPath>
+          <itemPath>../libwebsockets/lib/extension-permessage-deflate.h</itemPath>
+          <itemPath>../libwebsockets/lib/extension.c</itemPath>
+          <itemPath>../libwebsockets/lib/fcntl.h</itemPath>
+          <itemPath>../libwebsockets/lib/features.h</itemPath>
+          <itemPath>../libwebsockets/lib/getaddrinfo.h</itemPath>
+          <itemPath>../libwebsockets/lib/getifaddrs.h</itemPath>
+          <itemPath>../libwebsockets/lib/getopt.h</itemPath>
+          <itemPath>../libwebsockets/lib/grp.h</itemPath>
+          <itemPath>../libwebsockets/lib/handshake.c</itemPath>
+          <itemPath>../libwebsockets/lib/header.c</itemPath>
+          <itemPath>../libwebsockets/lib/inttypes.h</itemPath>
+          <itemPath>../libwebsockets/lib/lextable-strings.h</itemPath>
+          <itemPath>../libwebsockets/lib/lextable.h</itemPath>
+          <itemPath>../libwebsockets/lib/libio.h</itemPath>
+          <itemPath>../libwebsockets/lib/libwebsockets.c</itemPath>
+          <itemPath>../libwebsockets/lib/libwebsockets.h</itemPath>
+          <itemPath>../libwebsockets/lib/limits.h</itemPath>
+          <itemPath>../libwebsockets/lib/lws-plat-unix.c</itemPath>
+          <itemPath>../libwebsockets/lib/netdb.h</itemPath>
+          <itemPath>../libwebsockets/lib/output.c</itemPath>
+          <itemPath>../libwebsockets/lib/parsers.c</itemPath>
+          <itemPath>../libwebsockets/lib/poll.h</itemPath>
+          <itemPath>../libwebsockets/lib/pollfd.c</itemPath>
+          <itemPath>../libwebsockets/lib/private-libwebsockets.h</itemPath>
+          <itemPath>../libwebsockets/lib/pwd.h</itemPath>
+          <itemPath>../libwebsockets/lib/server-handshake.c</itemPath>
+          <itemPath>../libwebsockets/lib/server.c</itemPath>
+          <itemPath>../libwebsockets/lib/service.c</itemPath>
+          <itemPath>../libwebsockets/lib/sha-1.c</itemPath>
+          <itemPath>../libwebsockets/lib/signal.h</itemPath>
+          <itemPath>../libwebsockets/lib/ssl.c</itemPath>
+          <itemPath>../libwebsockets/lib/stdc-predef.h</itemPath>
+          <itemPath>../libwebsockets/lib/stddef.h</itemPath>
+          <itemPath>../libwebsockets/lib/stdint.h</itemPath>
+          <itemPath>../libwebsockets/lib/stdio.h</itemPath>
+          <itemPath>../libwebsockets/lib/stdlib.h</itemPath>
+          <itemPath>../libwebsockets/lib/string.h</itemPath>
+          <itemPath>../libwebsockets/lib/strings.h</itemPath>
+          <itemPath>../libwebsockets/lib/time.h</itemPath>
+          <itemPath>../libwebsockets/lib/unistd.h</itemPath>
+          <itemPath>../libwebsockets/lib/wchar.h</itemPath>
+          <itemPath>../libwebsockets/lib/xlocale.h</itemPath>
+          <itemPath>../libwebsockets/lib/zconf.h</itemPath>
+          <itemPath>../libwebsockets/lib/zlib.h</itemPath>
+        </logicalFolder>
+        <itemPath>../libwebsockets/lws_config.h</itemPath>
+        <itemPath>../libwebsockets/lws_config_private.h</itemPath>
+      </logicalFolder>
+      <logicalFolder name="nopoll-0.3.2.b232"
+                     displayName="nopoll-0.3.2.b232"
+                     projectFiles="true">
+        <logicalFolder name="src" displayName="src" projectFiles="true">
+          <itemPath>../nopoll-0.3.2.b232/src/nopoll.c</itemPath>
+          <itemPath>../nopoll-0.3.2.b232/src/nopoll.h</itemPath>
+          <itemPath>../nopoll-0.3.2.b232/src/nopoll_config.h</itemPath>
+          <itemPath>../nopoll-0.3.2.b232/src/nopoll_conn.c</itemPath>
+          <itemPath>../nopoll-0.3.2.b232/src/nopoll_conn.h</itemPath>
+          <itemPath>../nopoll-0.3.2.b232/src/nopoll_conn_opts.c</itemPath>
+          <itemPath>../nopoll-0.3.2.b232/src/nopoll_conn_opts.h</itemPath>
+          <itemPath>../nopoll-0.3.2.b232/src/nopoll_ctx.c</itemPath>
+          <itemPath>../nopoll-0.3.2.b232/src/nopoll_ctx.h</itemPath>
+          <itemPath>../nopoll-0.3.2.b232/src/nopoll_decl.c</itemPath>
+          <itemPath>../nopoll-0.3.2.b232/src/nopoll_decl.h</itemPath>
+          <itemPath>../nopoll-0.3.2.b232/src/nopoll_handlers.h</itemPath>
+          <itemPath>../nopoll-0.3.2.b232/src/nopoll_io.c</itemPath>
+          <itemPath>../nopoll-0.3.2.b232/src/nopoll_io.h</itemPath>
+          <itemPath>../nopoll-0.3.2.b232/src/nopoll_listener.c</itemPath>
+          <itemPath>../nopoll-0.3.2.b232/src/nopoll_listener.h</itemPath>
+          <itemPath>../nopoll-0.3.2.b232/src/nopoll_log.c</itemPath>
+          <itemPath>../nopoll-0.3.2.b232/src/nopoll_log.h</itemPath>
+          <itemPath>../nopoll-0.3.2.b232/src/nopoll_loop.c</itemPath>
+          <itemPath>../nopoll-0.3.2.b232/src/nopoll_loop.h</itemPath>
+          <itemPath>../nopoll-0.3.2.b232/src/nopoll_msg.c</itemPath>
+          <itemPath>../nopoll-0.3.2.b232/src/nopoll_msg.h</itemPath>
+          <itemPath>../nopoll-0.3.2.b232/src/nopoll_private.h</itemPath>
+          <itemPath>../nopoll-0.3.2.b232/src/nopoll_win32.c</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+    </logicalFolder>
+    <df root="." name="0">
+      <df name="source">
+        <in>internet.c</in>
+        <in>main.c</in>
+        <in>operations.c</in>
+        <in>type_1.c</in>
+        <in>util.c</in>
+        <in>websocket.c</in>
+        <in>wsmask.c</in>
+      </df>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+      <itemPath>nbproject/private/launcher.properties</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <flagsDictionary>
+        <element flagsID="0"
+                 commonFlags="-mtune=generic -march=x86-64 -fstack-protector"/>
+      </flagsDictionary>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath></executablePath>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
+          <preBuildCommand></preBuildCommand>
+        </preBuild>
+      </makefileType>
+      <item path="../libwebsockets/lib/alloc.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../libwebsockets</pElem>
+            <pElem>/usr/local/include/openssl</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../libwebsockets/lib/base64-decode.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../libwebsockets</pElem>
+            <pElem>/usr/local/include/openssl</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../libwebsockets/lib/client-handshake.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/local/include/openssl</pElem>
+            <pElem>../libwebsockets</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../libwebsockets/lib/client-parser.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/local/include/openssl</pElem>
+            <pElem>../libwebsockets</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../libwebsockets/lib/client.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/local/include/openssl</pElem>
+            <pElem>../libwebsockets</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../libwebsockets/lib/context.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/local/include/openssl</pElem>
+            <pElem>../libwebsockets</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../libwebsockets/lib/extension-deflate-frame.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/local/include/openssl</pElem>
+            <pElem>/opt/devkitpro/portlibs/armv6k/include</pElem>
+            <pElem>../libwebsockets</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../libwebsockets/lib/extension-deflate-stream.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/local/include/openssl</pElem>
+            <pElem>/opt/devkitpro/portlibs/armv6k/include</pElem>
+            <pElem>../libwebsockets</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../libwebsockets/lib/extension.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/local/include/openssl</pElem>
+            <pElem>../libwebsockets</pElem>
+            <pElem>/opt/devkitpro/portlibs/armv6k/include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../libwebsockets/lib/handshake.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/local/include/openssl</pElem>
+            <pElem>../libwebsockets</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../libwebsockets/lib/header.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/local/include/openssl</pElem>
+            <pElem>../libwebsockets</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../libwebsockets/lib/libwebsockets.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/local/include/openssl</pElem>
+            <pElem>../libwebsockets</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../libwebsockets/lib/lws-plat-unix.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/local/include/openssl</pElem>
+            <pElem>../libwebsockets</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../libwebsockets/lib/output.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/local/include/openssl</pElem>
+            <pElem>../libwebsockets</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../libwebsockets/lib/parsers.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/local/include/openssl</pElem>
+            <pElem>../libwebsockets</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../libwebsockets/lib/pollfd.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/local/include/openssl</pElem>
+            <pElem>../libwebsockets</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../libwebsockets/lib/server-handshake.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/local/include/openssl</pElem>
+            <pElem>../libwebsockets</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../libwebsockets/lib/server.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/local/include/openssl</pElem>
+            <pElem>../libwebsockets</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../libwebsockets/lib/service.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/local/include/openssl</pElem>
+            <pElem>../libwebsockets</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../libwebsockets/lib/sha-1.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../libwebsockets</pElem>
+            <pElem>/usr/local/include/openssl</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../libwebsockets/lib/ssl.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/local/include/openssl</pElem>
+            <pElem>../libwebsockets</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../nopoll-0.3.2.b232/src/nopoll.c" ex="false" tool="0" flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/openssl</pElem>
+            <pElem>/usr/include/x86_64-linux-gnu/openssl</pElem>
+            <pElem>../blimp/nopoll-0.3.2.b232/src</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../nopoll-0.3.2.b232/src/nopoll_conn.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/openssl</pElem>
+            <pElem>/usr/include/x86_64-linux-gnu/openssl</pElem>
+            <pElem>../blimp/nopoll-0.3.2.b232/src</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../nopoll-0.3.2.b232/src/nopoll_conn_opts.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/openssl</pElem>
+            <pElem>/usr/include/x86_64-linux-gnu/openssl</pElem>
+            <pElem>../blimp/nopoll-0.3.2.b232/src</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../nopoll-0.3.2.b232/src/nopoll_ctx.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/openssl</pElem>
+            <pElem>/usr/include/x86_64-linux-gnu/openssl</pElem>
+            <pElem>../blimp/nopoll-0.3.2.b232/src</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../nopoll-0.3.2.b232/src/nopoll_decl.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../blimp/nopoll-0.3.2.b232/src</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../nopoll-0.3.2.b232/src/nopoll_io.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/openssl</pElem>
+            <pElem>/usr/include/x86_64-linux-gnu/openssl</pElem>
+            <pElem>../blimp/nopoll-0.3.2.b232/src</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../nopoll-0.3.2.b232/src/nopoll_listener.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/openssl</pElem>
+            <pElem>/usr/include/x86_64-linux-gnu/openssl</pElem>
+            <pElem>../blimp/nopoll-0.3.2.b232/src</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../nopoll-0.3.2.b232/src/nopoll_log.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/openssl</pElem>
+            <pElem>/usr/include/x86_64-linux-gnu/openssl</pElem>
+            <pElem>../blimp/nopoll-0.3.2.b232/src</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../nopoll-0.3.2.b232/src/nopoll_loop.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/openssl</pElem>
+            <pElem>/usr/include/x86_64-linux-gnu/openssl</pElem>
+            <pElem>../blimp/nopoll-0.3.2.b232/src</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../nopoll-0.3.2.b232/src/nopoll_msg.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/include/openssl</pElem>
+            <pElem>/usr/include/x86_64-linux-gnu/openssl</pElem>
+            <pElem>../blimp/nopoll-0.3.2.b232/src</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../nopoll-0.3.2.b232/src/nopoll_win32.c"
+            ex="false"
+            tool="0"
+            flavor2="2">
+        <cTool flags="0">
+          <incDir>
+            <pElem>../blimp/nopoll-0.3.2.b232/src</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <folder path="0">
+        <cTool>
+          <incDir>
+            <pElem>build</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>ARM11</Elem>
+            <Elem>_3DS</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="Desktop">
+        <cTool>
+          <incDir>
+            <pElem>../nopoll-0.3.2.b232/src</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="Desktop/libwebsockets">
+        <cTool>
+          <incDir>
+            <pElem>../libwebsockets/lib</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <item path="source/internet.c" ex="false" tool="0" flavor2="3">
+      </item>
+      <item path="source/main.c" ex="false" tool="0" flavor2="3">
+      </item>
+      <item path="source/operations.c" ex="false" tool="0" flavor2="3">
+      </item>
+      <item path="source/type_1.c" ex="false" tool="0" flavor2="3">
+      </item>
+      <item path="source/util.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="source/websocket.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="source/wsmask.c" ex="false" tool="0" flavor2="2">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

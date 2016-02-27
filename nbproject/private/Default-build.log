@@ -1,0 +1,12 @@
+main.c
+arm-none-eabi-gcc -MMD -MP -MF /c/Users/michael.oriley/Desktop/clams/sample/build/main.d -g -Wall -O2 -mword-relocations -fomit-frame-pointer -ffast-math -march=armv6k -mtune=mpcore -mfloat-abi=hard -I/c/Users/michael.oriley/Desktop/clams/sample/include -I/c/devkitPro/libctru/include -I/c/devkitPro/portlibs/armv6k/include -I/c/devkitPro/portlibs/3ds/include -I/c/Users/michael.oriley/Desktop/clams/sample/build -DARM11 -D_3DS -c /c/Users/michael.oriley/Desktop/clams/sample/source/main.c -o main.o 
+c:/Users/michael.oriley/Desktop/clams/sample/source/main.c: In function 'main':
+c:/Users/michael.oriley/Desktop/clams/sample/source/main.c:17:39: error: 'FreeSans_ttf' undeclared (first use in this function)
+  sftd_font *font = sftd_load_font_mem(FreeSans_ttf, FreeSans_ttf_size);
+                                       ^
+c:/Users/michael.oriley/Desktop/clams/sample/source/main.c:17:39: note: each undeclared identifier is reported only once for each function it appears in
+c:/Users/michael.oriley/Desktop/clams/sample/source/main.c:17:53: error: 'FreeSans_ttf_size' undeclared (first use in this function)
+  sftd_font *font = sftd_load_font_mem(FreeSans_ttf, FreeSans_ttf_size);
+                                                     ^
+make[1]: *** [main.o] Error 1
+make: *** [build] Error 2

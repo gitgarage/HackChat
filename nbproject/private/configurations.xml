@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="build">
+        <in>arial_ttf.h</in>
+      </df>
+      <df name="data">
+      </df>
+      <df name="include">
+        <df name="3ds">
+          <df name="allocator">
+            <in>linear.h</in>
+            <in>mappable.h</in>
+            <in>vram.h</in>
+          </df>
+          <df name="gpu">
+            <in>enums.h</in>
+            <in>gpu-old.h</in>
+            <in>gpu.h</in>
+            <in>gx.h</in>
+            <in>registers.h</in>
+            <in>shaderProgram.h</in>
+            <in>shbin.h</in>
+          </df>
+          <df name="ndsp">
+            <in>channel.h</in>
+            <in>ndsp.h</in>
+          </df>
+          <df name="services">
+            <in>ac.h</in>
+            <in>am.h</in>
+            <in>apt.h</in>
+            <in>cam.h</in>
+            <in>cfgnor.h</in>
+            <in>cfgu.h</in>
+            <in>csnd.h</in>
+            <in>dsp.h</in>
+            <in>fs.h</in>
+            <in>gspgpu.h</in>
+            <in>gsplcd.h</in>
+            <in>hb.h</in>
+            <in>hid.h</in>
+            <in>httpc.h</in>
+            <in>ir.h</in>
+            <in>irrst.h</in>
+            <in>mic.h</in>
+            <in>mvd.h</in>
+            <in>news.h</in>
+            <in>ns.h</in>
+            <in>pm.h</in>
+            <in>ps.h</in>
+            <in>ptmsysm.h</in>
+            <in>ptmu.h</in>
+            <in>qtm.h</in>
+            <in>soc.h</in>
+            <in>srvpm.h</in>
+            <in>y2r.h</in>
+          </df>
+          <df name="util">
+            <in>rbtree.h</in>
+            <in>utf.h</in>
+          </df>
+          <in>console.h</in>
+          <in>env.h</in>
+          <in>gfx.h</in>
+          <in>ipc.h</in>
+          <in>os.h</in>
+          <in>result.h</in>
+          <in>romfs.h</in>
+          <in>sdmc.h</in>
+          <in>srv.h</in>
+          <in>svc.h</in>
+          <in>synchronization.h</in>
+          <in>thread.h</in>
+          <in>types.h</in>
+        </df>
+        <df name="arpa">
+          <in>inet.h</in>
+        </df>
+        <df name="c3d">
+          <in>attribs.h</in>
+          <in>base.h</in>
+          <in>buffers.h</in>
+          <in>effect.h</in>
+          <in>light.h</in>
+          <in>lightlut.h</in>
+          <in>maths.h</in>
+          <in>mtxstack.h</in>
+          <in>renderbuffer.h</in>
+          <in>renderqueue.h</in>
+          <in>texenv.h</in>
+          <in>texture.h</in>
+          <in>types.h</in>
+          <in>uniforms.h</in>
+        </df>
+        <df name="netinet">
+          <in>in.h</in>
+          <in>tcp.h</in>
+        </df>
+        <df name="openssl">
+          <in>async.h</in>
+          <in>jpake.h</in>
+          <in>kdf.h</in>
+          <in>md2.h</in>
+          <in>rc5.h</in>
+          <in>store.h</in>
+        </df>
+        <df name="sys">
+          <in>ioctl.h</in>
+          <in>select.h</in>
+          <in>socket.h</in>
+        </df>
+        <in>3ds.h</in>
+        <in>citro3d.h</in>
+        <in>libwebsockets.h</in>
+        <in>netdb.h</in>
+        <in>poll.h</in>
+      </df>
+      <df name="resources">
+      </df>
+      <df name="source">
+        <in>internet.c</in>
+        <in>main.c</in>
+        <in>operations.c</in>
+        <in>structures.h</in>
+        <in>type_1.c</in>
+        <in>util.c</in>
+        <in>util.h</in>
+        <in>websocket.c</in>
+        <in>websocket.h</in>
+        <in>wsmask.c</in>
+      </df>
+      <in>librws.h</in>
+    </df>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir></rundir>
+        <buildfirst>false</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>
