@@ -16,18 +16,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include <netdb.h>
-#include <netinet/in.h>
+#include </home/omikey/Desktop/libctru/include/netdb.h>
+#include </home/omikey/Desktop/libctru/include/netinet/in.h>
 
 #include <string.h>
 
 #include <sys/types.h>
-#include <sys/socket.h>
+#include </home/omikey/Desktop/libctru/include/sys/socket.h>
 #include <unistd.h>
 #include <malloc.h>
-#include <arpa/inet.h>
+#include </home/omikey/Desktop/libctru/include/arpa/inet.h>
 #include <fcntl.h>
-#include <3ds.h>
+#include </home/omikey/Desktop/libctru/include/3ds.h>
 #include <setjmp.h>
 #include <assert.h>
 #include "structures.h"
@@ -66,8 +66,8 @@
 #include <sys/stat.h>
 #include <time.h>
 //#include <arpa/inet.h>
-#include <3ds/result.h>       // To be removed when dkA patch to newlib is applied
-#include <3ds/services/soc.h>
+#include </home/omikey/Desktop/libctru/include/3ds/result.h>       // To be removed when dkA patch to newlib is applied
+#include </home/omikey/Desktop/libctru/include/3ds/services/soc.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include "websocket.h"
@@ -134,10 +134,11 @@ int internet_access(char* str)
 //        return -1;
 //    }
     int fd = 0;
-    if (global.t > 0)
+    if (global.first == 0)
     {
+        
         fd = global.t;
-        sendUtf8Data(fd,str,strlen(str));
+        sendUtf8Data(global.t,str,strlen(str));
     }
     else
     {

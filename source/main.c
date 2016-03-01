@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <math.h>
-#include <3ds.h>
+#include </home/omikey/Desktop/libctru/include/3ds.h>
 #include </home/omikey/Desktop/libsf2d/include/sf2d.h>
 #include </home/omikey/Desktop/libsftd/include/sftd.h>
 #include <stdlib.h>
@@ -12,13 +12,21 @@
 
 int main()
 {
+    char **lines;
+    int    i;   
+
+    lines = malloc(20 * sizeof(char *));
+    for (i = 0 ; i < 20 ; ++i)
+    {
+        lines[i] = malloc(500);
+    }
+    
     global.sent = 0;
     global.t = 0;
-        char lines[20][200];
-        int i = 0;
+        i = 0;
         global.message = "";
-        global.first = 0;
-        strcpy(lines[0], "Please enter a username.");
+        global.first = 1;
+        strcpy(lines[0], "Please enter a username. ");
 	sf2d_init();
 	sf2d_set_clear_color(RGBA8(0x40, 0x40, 0x40, 0xFF));
        	sf2d_texture *tex2 = sf2d_create_texture_mem_RGBA8(type_1.pixel_data, type_1.width, type_1.height, TEXFMT_RGBA8, SF2D_PLACE_RAM);
@@ -38,12 +46,12 @@ int main()
 //        u8 index = 10;
         int n = 0;
         int j;
-        char buf[200];
+        char buf[500];
         u8 even = 0;
         int count = 0;
         //char buf[200];
         char str[100];
-        char new_string[100];
+        char new_string[500];
         char c[1];
         int len = 0;
                         int y;
@@ -64,19 +72,25 @@ int main()
             char* r2;
             char* r3;
             char* r4;
-            int cbob = 0;
+            int cbob = 1;
             
             global.last = "";
             
             
 	while (aptMainLoop()) {                
+            if (global.first == 2)
+            {
+                global.first = 0;
+                internet_access("");
+            }
+            
             if (global.sent == 2)
             {
                 strcpy(lines[0], "You have entered #3dshacks");
             }
-            while (cbob > 8)
+            while (cbob > 18)
             {
-                for (y = 0; y < 9; y++)
+                for (y = 0; y < 19; y++)
                 {
                     if (y > 0)
                     {
@@ -93,17 +107,17 @@ int main()
                 global.ourMessage = "";
                 cbob++;                
             }
-                global.sent == 0;
+                global.sent = 0;
                 global.ourMessage = "";
             if (global.t > 0)                
             {
                 end = 1;
                 while (end > 0)
                 {
-                    bzero(buf, 200);
+                    bzero(buf, 500);
                     count = 0;
                     //end = sgetline(fd, buf);
-                    while (end > 0 && count < 200)
+                    while (end > 0 && count < 500)
                     {
                         end = read(global.t, c, 1);
                         
@@ -132,7 +146,7 @@ int main()
                     ping = strstr(buf, "PING");
                     if (ping != NULL)
                     {
-                        send(global.t, "PONG :irc.rizon.io", 18, 0);
+                        send(global.t, "PONG :irc.rizon.io\r\n", 20, 0);
                         //printf("PONG :irc.rizon.io\r\n");
                     }
 
@@ -157,6 +171,13 @@ int main()
                         r3 = concatinate(r2, buf + index + 19);
                         r3[strlen(r3)-1] = '\0';
 //                        printf("<%s> %s\n", name, buf + index + 19);                        
+                        
+                        if (strlen(r3)%8 == 0)
+                        {
+                            char* str = concatinate(r3, " ");
+                            strcpy(r3, str);
+                        }
+                        
                         strcpy(lines[cbob], r3);
                         cbob++;
                     }
@@ -192,11 +213,22 @@ int main()
 		sf2d_start_frame(GFX_TOP, GFX_LEFT);
 
 			sf2d_draw_rectangle(10, 40, textWidth, textHeight, RGBA8(0, 100, 0, 255));
-                        
-                        for (y = 0; y < 8; y++)
+                        int h = 0;
+                        int w = 0;
+                        y = cbob - 1;
+                        int height = 240;
+                        while(height > 0 && y >= 0)
                         {
-                            sftd_draw_text_wrap(font, 5, 5 + (y * 30),  RGBA8(0, 255, 0, 255), 12, 300, lines[y]);                                                                                
+                            sftd_calc_bounding_box(&w, &h, font, 12, 380, lines[y]);
+                            height -= h + 10;
+                            sftd_draw_text_wrap(font, 10, height,  RGBA8(0, 255, 0, 255), 12, 380, lines[y]);
+                            y--;
                         }
+                                
+//                        for (y = 0; y < 8; y++)
+//                        {
+//                            sftd_draw_text_wrap(font, 5, 5 + (y * 30),  RGBA8(0, 255, 0, 255), 12, 320, lines[y]);
+//                        }
 //                        sftd_draw_text_wrap(font, 5, 19,  RGBA8(0, 255, 0, 255), 12, 300, a02);                                                        
 //                        sftd_draw_text_wrap(font, 5, 33,  RGBA8(0, 255, 0, 255), 12, 300, a03);                                                        
 //                        sftd_draw_text_wrap(font, 5, 47,  RGBA8(0, 255, 0, 255), 12, 300, a04);                                                        

@@ -14,7 +14,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <math.h>
-#include <3ds.h>
+#include </home/omikey/Desktop/libctru/include/3ds.h>
 #include <stdlib.h>
 #include "structures.h"
 
@@ -164,9 +164,8 @@ int getText(int x, int y, int index)
                 letter = "p";
             } else
             {
-                if (global.first == 0)
+                if (global.first == 1)
                 {
-                    global.first = 1;
                     global.handle = global.message;
                     global.message = "";
                     return internet_access(global.message);

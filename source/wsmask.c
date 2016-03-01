@@ -87,11 +87,14 @@ void mask(char* fdin, unsigned char *masking_key, unsigned char opcode, int32_t 
                 int len = strlen(last);
                 
                 send(global.t, last, len, 0);
-                char* m1 = concatinate("<", global.handle);
-                char* m2 = concatinate(m1, "> ");
-                global.ourMessage = concatinate(m2, global.message);
-                global.sent = 1;
-                global.message = "";
+                if (strlen(global.message) > 0)
+                {
+                    char* m1 = concatinate("<", global.handle);
+                    char* m2 = concatinate(m1, "> ");
+                    global.ourMessage = concatinate(m2, global.message);
+                    global.sent = 1;
+                    global.message = "";
+                }
 
 
 

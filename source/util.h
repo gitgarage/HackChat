@@ -62,10 +62,10 @@ typedef unsigned __int64 uint64_t;
 #include <unistd.h>
 #include <string.h>  
 #include<sys/types.h>
-#include<sys/socket.h>
-#include<netinet/in.h>
-#include<arpa/inet.h>
-#include <netdb.h>
+#include</home/omikey/Desktop/libctru/include/sys/socket.h>
+#include</home/omikey/Desktop/libctru/include/netinet/in.h>
+#include</home/omikey/Desktop/libctru/include/arpa/inet.h>
+#include </home/omikey/Desktop/libctru/include/netdb.h>
 #include <ctype.h>
 
 #ifndef INVALID_SOCKET

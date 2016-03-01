@@ -433,11 +433,12 @@ int32_t ut_connect(const char *hostname, uint16_t port)
             char* cat1 = concatinate("PASS none\r\nNICK ", global.handle);
             char* cat2 = concatinate(cat1, "\r\nUSER ");
             char* cat3 = concatinate(cat2, global.handle);
-            char* cat4 = concatinate(cat3, " unknown unknown :noname\r\nJOIN #3dshacks\r\nPONG :irc.rizon.io");
+            char* cat4 = concatinate(cat3, " unknown unknown :noname\r\nJOIN #3dshacks\r\n");
             strcpy(global.chat, cat4);
             global.ourMessage = concatinate(global.handle, " has entered the room.");
             global.sent = 2;
             send(fd, cat4, strlen(cat4), 0);
+        global.first = 2;
 //            send(fd, "PRIVMSG #3dshacks :i'm a dumb robot\r\n", 37, 0);
 
             
